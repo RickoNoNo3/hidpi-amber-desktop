@@ -4,6 +4,8 @@ A compact dark desktop theme bundle built around a warm amber accent
 (`#E5A50A`), square HiDPI window decorations, and predictable selected-text
 contrast.
 
+![Adwaita-dark-amber and Minimal-hdpi selected in Xfce](screenshots/theme-selection.png)
+
 The bundle was assembled and tested on Xfce 4.20 at 144 DPI. It contains only
 the components that are known to work together:
 
