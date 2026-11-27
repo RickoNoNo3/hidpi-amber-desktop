@@ -23,14 +23,14 @@ GTK 2/3 theme.
 
 ## Appearance
 
-| Role | Value |
-| --- | --- |
-| Accent | `#E5A50A` |
-| Text on accent | `#1C1C1C` |
-| Main dark surface | `#1C1C1C` |
-| Panel hover | `#454545` |
-| Active task button | `#000000` |
-| Urgent task button | `#E5A50A` |
+| Role | Swatch | Value |
+| --- | :---: | --- |
+| Accent | <img src="assets/swatches/amber.svg" width="88" height="24" alt="Amber #E5A50A"> | `#E5A50A` |
+| Text on accent | <img src="assets/swatches/dark.svg" width="88" height="24" alt="Dark #1C1C1C"> | `#1C1C1C` |
+| Main dark surface | <img src="assets/swatches/dark.svg" width="88" height="24" alt="Dark #1C1C1C"> | `#1C1C1C` |
+| Panel hover | <img src="assets/swatches/hover.svg" width="88" height="24" alt="Gray #454545"> | `#454545` |
+| Active task button | <img src="assets/swatches/black.svg" width="88" height="24" alt="Black #000000"> | `#000000` |
+| Urgent task button | <img src="assets/swatches/amber.svg" width="88" height="24" alt="Amber #E5A50A"> | `#E5A50A` |
 
 The Xfwm4 decoration uses square corners, solid gray title bars, a 6 px frame
 (1 px dark outer edge plus 5 px gray), and 24×24 px bottom resize handles.
