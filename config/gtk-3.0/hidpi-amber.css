@@ -1,0 +1,133 @@
+/*
+ * Xfce panel tasklist
+ * - normal: transparent
+ * - hover: solid gray
+ * - current window (:checked): solid black
+ * - attention (.suggested-action): solid amber
+ */
+.xfce4-panel .tasklist button,
+.xfce4-panel .tasklist button.flat,
+.xfce4-panel .tasklist button.toggle,
+.xfce4-panel .tasklist button.group-button,
+.xfce4-panel .tasklist #panel-tasklist-arrow {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  background-color: transparent;
+  background-image: none;
+  transition: none;
+}
+
+.xfce4-panel .tasklist button:hover,
+.xfce4-panel .tasklist button.flat:hover,
+.xfce4-panel .tasklist button.toggle:hover,
+.xfce4-panel .tasklist button.group-button:hover,
+.xfce4-panel .tasklist #panel-tasklist-arrow:hover {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: #454545;
+  background-image: none;
+}
+
+.xfce4-panel .tasklist button:checked,
+.xfce4-panel .tasklist button:checked:hover,
+.xfce4-panel .tasklist button:checked:focus,
+.xfce4-panel .tasklist button:checked:active,
+.xfce4-panel .tasklist button.group-button:checked,
+.xfce4-panel .tasklist button.group-button:checked:hover {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  color: #F6F5F4;
+  background-color: #000000;
+  background-image: none;
+}
+
+.xfce4-panel .tasklist button.suggested-action,
+.xfce4-panel .tasklist button.suggested-action:hover,
+.xfce4-panel .tasklist button.suggested-action:focus,
+.xfce4-panel .tasklist button.suggested-action:active,
+.xfce4-panel .tasklist button.suggested-action:checked {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  text-shadow: none;
+  color: #1C1C1C;
+  background-color: #E5A50A;
+  background-image: none;
+}
+
+.xfce4-panel .tasklist button:checked label,
+.xfce4-panel .tasklist button:checked:hover label,
+.xfce4-panel .tasklist button.suggested-action label {
+  color: inherit;
+  text-shadow: none;
+}
+
+/*
+ * GTK3 selection states used by Xfce settings applications.
+ * Combined selected/hover/focus states must not fall back to white text.
+ */
+.view:selected,
+.view:selected:hover,
+.view:selected:focus,
+.view:selected:focus:hover,
+treeview.view:selected,
+treeview.view:selected:hover,
+treeview.view:selected:focus,
+treeview.view:selected:focus:hover,
+iconview:selected,
+iconview:selected:hover,
+iconview:selected:focus,
+iconview:selected:focus:hover,
+row:selected,
+row:selected:hover,
+row:selected:focus,
+row:selected:focus:hover,
+flowbox flowboxchild:selected,
+flowbox flowboxchild:selected:hover {
+  color: #1C1C1C;
+  background-color: #E5A50A;
+  background-image: none;
+  text-shadow: none;
+  -gtk-icon-shadow: none;
+}
+
+row:selected label,
+row:selected:hover label,
+row:selected:focus label,
+row:selected:focus:hover label,
+flowbox flowboxchild:selected label,
+flowbox flowboxchild:selected:hover label {
+  color: #1C1C1C;
+  text-shadow: none;
+}
+
+/*
+ * A hovered parent menu item stays active while its submenu is open.
+ * Give every submenu item an explicit foreground so it does not inherit
+ * the parent's dark hover text color.
+ */
+menu menuitem,
+.menu menuitem,
+.context-menu menuitem {
+  color: #F6F5F4;
+  text-shadow: none;
+}
+
+menu menuitem:hover,
+.menu menuitem:hover,
+.context-menu menuitem:hover {
+  color: #1C1C1C;
+  text-shadow: none;
+}
+
+menu menuitem:disabled,
+.menu menuitem:disabled,
+.context-menu menuitem:disabled {
+  color: #8F8F8F;
+  text-shadow: none;
+}

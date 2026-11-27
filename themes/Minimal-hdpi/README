@@ -1,0 +1,5 @@
+Minimal-hdpi: a flat Xfwm4 theme for 144 DPI displays.
+Square corners and solid gray titlebars; no gradients.
+Frame: 6px (1px black outer line + 5px gray); bottom corner resize handles: 24x24px.
+Control glyph geometry is derived from Xfce Default-hdpi.
+Accent: amber yellow #E5A50A.

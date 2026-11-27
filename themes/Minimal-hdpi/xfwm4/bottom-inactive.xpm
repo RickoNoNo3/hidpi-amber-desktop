@@ -1,0 +1,13 @@
+/* XPM */
+static char * bottom_inactive_xpm[] = {
+"16 6 3 1",
+"  c None",
+"B c #303030",
+"K c #111111",
+"BBBBBBBBBBBBBBBB",
+"BBBBBBBBBBBBBBBB",
+"BBBBBBBBBBBBBBBB",
+"BBBBBBBBBBBBBBBB",
+"BBBBBBBBBBBBBBBB",
+"KKKKKKKKKKKKKKKK"
+};

@@ -1,0 +1,6 @@
+#!/bin/sh
+# SPDX-License-Identifier: GPL-2.0-or-later
+set -eu
+
+qss="${XDG_CONFIG_HOME:-$HOME/.config}/fcitx5/amber-selection.qss"
+exec fcitx5-config-qt -stylesheet "$qss" "$@"

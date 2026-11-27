@@ -1,0 +1,12 @@
+QLineEdit, QTextEdit, QPlainTextEdit {
+    selection-background-color: #E5A50A;
+    selection-color: #1C1C1C;
+}
+QAbstractItemView::item:selected,
+QTreeView::item:selected,
+QListView::item:selected,
+QTableView::item:selected,
+QMenu::item:selected {
+    background-color: #E5A50A;
+    color: #1C1C1C;
+}
